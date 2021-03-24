@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jsx语法规则</title>
+</head>
+    <style>
+        .title {
+            background-color: orange;
+            width: 200px;
+        }
+    </style>
+<body>
+     <!-- 准备好一个“容器” -->
+     <div id="test"></div>
+    
+     <!-- 引入React核心库 -->
+     <script type="text/javascript" src="../js/react.development.js"></script>
+     <!-- 引用react_dom, 用于react操作Dom -->
+     <script type="text/javascript" src="../js/react-dom.development.js"></script>
+     <!-- 引入babel，用于将jsx转为js -->
+     <script type="text/javascript" src="../js/babel.min.js"></script>
+     <script type="text/babel">
+        const myId = 'aTguiGu'
+        const myDatas = 'Hello,rEaCt'
+         // 1.创建虚拟dom
+         const Vm = (<h1 className="title" id={myId.toLocaleLowerCase()}>
+                <span style={{color:'white',fontSize:'30px'}}>{myDatas.toLocaleLowerCase()}</span>
+            </h1>)
+        // 2.渲染虚拟dom到页面
+        // ReactDOM.render(虚拟DOM, 容器)
+        ReactDOM.render(Vm, document.getElementById('test'))
+        /*
+            jsx语法规则：
+                1、定义虚拟dom时，不要写引号
+                2、标签中混入js表达式时要用{}
+                3、样式的类名指定不要用class，要用className
+                4、内联样式，要用style={{key: value}}的形式去写
+        */
+     </script>
+</body>
+</html>
