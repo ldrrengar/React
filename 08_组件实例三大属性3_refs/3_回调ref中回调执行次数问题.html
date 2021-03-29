@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>回调函数形式的ref</title>
+    <title>回调ref中回调执行次数问题</title>
 </head>
 <body>
     <!-- 准备好一个“容器” -->
@@ -20,25 +20,34 @@
         // 1、创建组件
       class Demo extends React.Component {
 
-       // 展示左侧输入框数据
-       showData = () => {
+        state = {
+            isHot: true
+        }
+
+       showInfo = () => {
            const {input1} = this
-           console.log(this)
            alert(input1.value)
        }
 
-       // 展示右侧输入框
-       showData2 = () => {
-           const {input2} = this
-           alert(input2.value)
+       changeWeather = () => {
+           const {isHot} = this.state
+           this.setState({isHot: !isHot})
+       }
+
+       saveInput = (c) => {
+            this.input1 = c; 
+            console.log('@', c)
        }
 
        render () {
+        const {isHot} = this.state
                return (
                    <div>
-                       <input ref={c => this.input1 = c} type="text" placeholder="点击按钮提示数据"/>&emsp;
-                       <button onClick={this.showData}>点击我提示左侧的数据</button>&emsp;
-                       <input ref={c => this.input2 = c} onBlur={this.showData2} type="text" placeholder="失去焦点提示数据"/>
+                       <h2>今天的天气很{isHot ? '炎热' : '凉爽'}</h2>
+                       {/*<input ref={(c) => {this.input1 = c; console.log('@', c)}} type="text" placeholder="点击按钮提示数据"/>&emsp;*/}
+                       <input ref={this.saveInput} type="text" placeholder="点击按钮提示数据"/>
+                       <button onClick={this.showInfo}>点我提示输入的数据</button>&emsp;
+                       <button onClick={this.changeWeather}>点击我切换天气</button>&emsp;
                    </div>
                )   
            }
