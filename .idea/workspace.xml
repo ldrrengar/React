@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa8e4cb1-fe75-4f2c-9bc4-deb2e1342420" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/12_组件的生命周期/3_react生命周期(新).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12_组件的生命周期/3_react生命周期(新).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/17.0.1/babel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/17.0.1/prop-types.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/17.0.1/react-dom.development.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/17.0.1/react.development.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12_组件的生命周期/4_getSnapshotBeforeUpdate的使用场景.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12_组件的生命周期/3_react生命周期(新).html" beforeDir="false" afterPath="$PROJECT_DIR$/12_组件的生命周期/3_react生命周期(新).html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -26,7 +22,16 @@
         <entry file="file://$PROJECT_DIR$/12_组件的生命周期/3_react生命周期(新).html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="72" column="78" selection-start-line="72" selection-start-column="78" selection-end-line="72" selection-end-column="78" />
+              <caret line="31" column="78" selection-start-line="31" selection-start-column="78" selection-end-line="31" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="4_getSnapshotBeforeUpdate的使用场景.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/12_组件的生命周期/4_getSnapshotBeforeUpdate的使用场景.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
@@ -39,8 +44,8 @@
       <file leaf-file-name="2_react生命周期(旧).html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/12_组件的生命周期/2_react生命周期(旧).html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2964">
-              <caret line="156" column="9" lean-forward="true" selection-start-line="9" selection-end-line="156" selection-end-column="9" />
+            <state relative-caret-position="269">
+              <caret line="32" column="78" lean-forward="true" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -54,6 +59,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>componentWillUpdate</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -63,6 +73,7 @@
         <option value="$PROJECT_DIR$/03_jsx语法规则/jsx语法规则.html" />
         <option value="$PROJECT_DIR$/12_组件的生命周期/1_引出生命周期.html" />
         <option value="$PROJECT_DIR$/12_组件的生命周期/2_react生命周期(旧).html" />
+        <option value="$PROJECT_DIR$/12_组件的生命周期/4_getSnapshotBeforeUpdate的使用场景.html" />
         <option value="$PROJECT_DIR$/12_组件的生命周期/3_react生命周期(新).html" />
       </list>
     </option>
@@ -170,12 +181,12 @@
       <workItem from="1616598345557" duration="1199000" />
       <workItem from="1617200584402" duration="6253000" />
       <workItem from="1617279237579" duration="1323000" />
-      <workItem from="1617363711061" duration="2503000" />
+      <workItem from="1617363711061" duration="6969000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11278000" />
+    <option name="totallyTimeSpent" value="15744000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -268,20 +279,27 @@
     <entry file="file://$PROJECT_DIR$/12_组件的生命周期/2_react生命周期(旧).png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/12_组件的生命周期/3_react生命周期(新).png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/12_组件的生命周期/2_react生命周期(旧).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2964">
-          <caret line="156" column="9" lean-forward="true" selection-start-line="9" selection-end-line="156" selection-end-column="9" />
+        <state relative-caret-position="269">
+          <caret line="32" column="78" lean-forward="true" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="78" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/12_组件的生命周期/3_react生命周期(新).png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/12_组件的生命周期/4_getSnapshotBeforeUpdate的使用场景.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/12_组件的生命周期/3_react生命周期(新).html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="72" column="78" selection-start-line="72" selection-start-column="78" selection-end-line="72" selection-end-column="78" />
+          <caret line="31" column="78" selection-start-line="31" selection-start-column="78" selection-end-line="31" selection-end-column="78" />
         </state>
       </provider>
     </entry>
