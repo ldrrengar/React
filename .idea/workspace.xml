@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa8e4cb1-fe75-4f2c-9bc4-deb2e1342420" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/12_组件的生命周期/4_getSnapshotBeforeUpdate的使用场景.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_DOM的Diffing算法/1_验证Diffing算法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13_DOM的Diffing算法/2_key的作用.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12_组件的生命周期/3_react生命周期(新).html" beforeDir="false" afterPath="$PROJECT_DIR$/12_组件的生命周期/3_react生命周期(新).html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,34 +18,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="3_react生命周期(新).html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="3_react生命周期(新).html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/12_组件的生命周期/3_react生命周期(新).html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="31" column="78" selection-start-line="31" selection-start-column="78" selection-end-line="31" selection-end-column="78" />
+            <state relative-caret-position="144">
+              <caret line="34" column="39" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="4_getSnapshotBeforeUpdate的使用场景.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/12_组件的生命周期/4_getSnapshotBeforeUpdate的使用场景.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="3_react生命周期(新).png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/12_组件的生命周期/3_react生命周期(新).png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file leaf-file-name="2_react生命周期(旧).html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/12_组件的生命周期/2_react生命周期(旧).html">
+      <file leaf-file-name="1_验证Diffing算法.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/13_DOM的Diffing算法/1_验证Diffing算法.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="269">
-              <caret line="32" column="78" lean-forward="true" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="78" />
+              <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2_key的作用.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/13_DOM的Diffing算法/2_key的作用.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -75,6 +70,8 @@
         <option value="$PROJECT_DIR$/12_组件的生命周期/2_react生命周期(旧).html" />
         <option value="$PROJECT_DIR$/12_组件的生命周期/4_getSnapshotBeforeUpdate的使用场景.html" />
         <option value="$PROJECT_DIR$/12_组件的生命周期/3_react生命周期(新).html" />
+        <option value="$PROJECT_DIR$/13_DOM的Diffing算法/1_验证Diffing算法.html" />
+        <option value="$PROJECT_DIR$/13_DOM的Diffing算法/2_key的作用.html" />
       </list>
     </option>
   </component>
@@ -108,17 +105,12 @@
             <path>
               <item name="react_basic" type="b2602c69:ProjectViewProjectNode" />
               <item name="react_basic" type="462c0819:PsiDirectoryNode" />
-              <item name="03_jsx语法规则" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_basic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_basic" type="462c0819:PsiDirectoryNode" />
-              <item name="04_jsx练习" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_basic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_basic" type="462c0819:PsiDirectoryNode" />
               <item name="12_组件的生命周期" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react_basic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_basic" type="462c0819:PsiDirectoryNode" />
+              <item name="13_DOM的Diffing算法" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react_basic" type="b2602c69:ProjectViewProjectNode" />
@@ -140,12 +132,13 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\reactProject\react_basic\12_组件的生命周期" />
-      <recent name="E:\reactProject\react_basic\js\17.0.1" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\reactProject\react_basic\12_组件的生命周期" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\reactProject\react_basic\13_DOM的Diffing算法" />
+      <recent name="E:\reactProject\react_basic\12_组件的生命周期" />
+      <recent name="E:\reactProject\react_basic\js\17.0.1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -181,25 +174,25 @@
       <workItem from="1616598345557" duration="1199000" />
       <workItem from="1617200584402" duration="6253000" />
       <workItem from="1617279237579" duration="1323000" />
-      <workItem from="1617363711061" duration="6969000" />
+      <workItem from="1617363711061" duration="10661000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15744000" />
+    <option name="totallyTimeSpent" value="19436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25363275" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25363275" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32956153" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32956153" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -279,9 +272,6 @@
     <entry file="file://$PROJECT_DIR$/12_组件的生命周期/2_react生命周期(旧).png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/12_组件的生命周期/3_react生命周期(新).png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/12_组件的生命周期/2_react生命周期(旧).html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
@@ -291,15 +281,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/12_组件的生命周期/4_getSnapshotBeforeUpdate的使用场景.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="76">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="39" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/12_组件的生命周期/3_react生命周期(新).png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/12_组件的生命周期/3_react生命周期(新).html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="31" column="78" selection-start-line="31" selection-start-column="78" selection-end-line="31" selection-end-column="78" />
+        <state relative-caret-position="144">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13_DOM的Diffing算法/1_验证Diffing算法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/13_DOM的Diffing算法/2_key的作用.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
         </state>
       </provider>
     </entry>
